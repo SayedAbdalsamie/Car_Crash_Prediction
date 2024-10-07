@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* لون خلفية فاتح */
+    color: #333; /* لون النص */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px; /* عرض الحاوية */
+    margin: 50px auto; /* موازنة الحاوية في المنتصف */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    background-color: #ffffff; /* خلفية الحاوية */
+}
+
+h1 {
+    text-align: center; /* محاذاة العنوان إلى المنتصف */
+    color: #ff4500; /* لون العنوان */
+}
+
+form {
+    display: flex; /* استخدام التخطيط المرن */
+    flex-direction: column; /* العمود */
+}
+
+label {
+    margin-bottom: 5px; /* مسافة بين label و input */
+}
+
+input[type="file"] {
+    margin-bottom: 15px; /* مسافة بين input و الزر */
+}
+
+button {
+    padding: 10px;
+    background-color: #ff4500; /* لون زر الإرسال */
+    color: white; /* لون النص في الزر */
+    border: none; /* إزالة الحدود */
+    border-radius: 5px; /* زوايا دائرية */
+    cursor: pointer; /* تغيير المؤشر عند المرور فوق الزر */
+}
+
+button:hover {
+    background-color: #e63946; /* تغيير اللون عند التمرير */
+}
+
+#result {
+    margin-top: 20px; /* مسافة فوق نتيجة التصنيف */
+    font-size: 18px; /* حجم خط النتيجة */
+    text-align: center; /* محاذاة النتيجة إلى المنتصف */
+    color: #4caf50; /* لون النص للنتيجة */
+}
